@@ -39,4 +39,14 @@ num1=num2;
 num2=temp;
 console.log(num1,num2);
 
+console.log("swapping variables");
+var str1="Sweety";
+var str2="Cutey";
+
+var temp = str1;
+str1 = str2;
+str2 = temp;
+console.log(str1,str2);
+
+
 
