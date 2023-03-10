@@ -55,8 +55,13 @@ var sliceResult = greet.slice(5,12);
 console.log(sliceResult);
 console.log(greet.slice(2,5).length);
 
-
 console.log("split() method");
-var greet = " Good Morning";
+var greet = " Good Morning my dear freind";
 var splitResult =greet.split(" ");
 console.log(splitResult);
+console.log("Total words: " , splitResult.length);
+
+var myFreindList ="Billgates, Samar, Praju, Elon Musk, Narayn Murti, Nadan Nilekani, Larry Page, Tim Cook";
+var freindList =myFreindList.split( " ");
+console.log(freindList.length);
+console.log("Total words: " , myFreindList.length);
