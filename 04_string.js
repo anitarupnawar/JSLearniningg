@@ -53,4 +53,10 @@ console.log("Is substring o includes in the greet or not:" , greet.includes("o")
 console.log("slice() method");
 var sliceResult = greet.slice(5,12);
 console.log(sliceResult);
-greet.slice(2,5);
+console.log(greet.slice(2,5).length);
+
+
+console.log("split() method");
+var greet = " Good Morning";
+var splitResult =greet.split(" ");
+console.log(splitResult);
