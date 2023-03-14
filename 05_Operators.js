@@ -91,3 +91,23 @@ console.log(result);
  var result =age >=21 ?" Congrtualtions..": "Ha haa no next time...";
  console.log(result);
 
+ console.log("Even or Odd");
+var myNumber =7;
+// Even -Divide by 2 & reminder is 0
+var result = myNumber%2 == 0 ? "EVEN": "ODD";
+console.log(result);
+
+var num1 =10;
+var num2 =12;
+var result = num1 > num2 ? num1 : num2;
+console.log(result);
+
+
+//Assignement 
+
+function maleMarriageEligibilty(gender, age, boyName){
+var result = gender=="Male" && age>=21 ?`Hey ${boyName} you are eligible for marriage`: "No try next time";
+return result;
+}
+var result = maleMarriageEligibilty("Male", 25, "Billgates");
+console.log(result);
