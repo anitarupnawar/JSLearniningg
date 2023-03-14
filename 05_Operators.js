@@ -60,5 +60,24 @@ var num2 = 20;
  console.log(`Comparison Operator`);
  var num3 = "10";
  var num4 = 10;
-console.log(num3==num4);  //10==10
- console.log(num3===num4);    //stricatly value
+ console.log(num3==num4);  //10==10
+ console.log(num3===num4);    //stricatlly value
+
+console.log(num3 != num4);   // ! Not
+
+console.log( 10 > 20);  // > Greater Than
+
+console.log(20 < 10); // < less than
+
+console.log(10 < 10); // < less than
+
+var marks =35;
+console.log(marks >= 35);   // > Greater than equal
+//Is marks greater than 35
+//Is marks greater than equal 35
+
+
+// < Less than equal
+var marks =35;
+console.log(marks <= 35);   // < less than equal
+
