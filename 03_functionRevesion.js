@@ -69,3 +69,5 @@ function tcsInterviewCheck(gradScore, hscScore, sscScore, candidateName){
  console.log(result);
 }
 tcsInterviewCheck(80, 86, 90, "Billgates");
+tcsInterviewCheck(70, 65, 55, "Stew Job");
+tcsInterviewCheck(60, 79, 88, "Marks");
