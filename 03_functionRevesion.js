@@ -16,7 +16,7 @@ console.log(`Addition of 20 and 30 is ${sum}`);
 
 //Above code is function with arguments & Return value
 
-
+//Assignment1
 
 function greaterNumber(num1, num2) {
  var result=  num1>num2 ? num1 : num2;
@@ -24,6 +24,8 @@ console.log(`Greater number amongst ${num1},  ${num2} is: ${result}`);
 }
 greaterNumber (10, -10);
 greaterNumber (800, 899);
+
+//Assignment2
 
 console.log("======isEvenOrOddNum()=======");
 
@@ -41,3 +43,17 @@ return result;
 }
 var result = isEvenOrOddNum(29);
 console.log(`29 Is even or odd -->True -even ,False -odd: ${result}`);
+
+//Assignment3
+
+function wordLength(word) {
+ var wordLength =  word.length;
+ var result = wordLength%2==0 ? "Even" : "Odd";
+return result;
+}
+var result = wordLength ("Javascript");
+console.log(`word 'Javascript' has length : ${result}`);
+var result = wordLength ("developer");
+console.log(`word 'developer' has length : ${result}`);
+var result = wordLength ("Google");
+console.log(`word 'Google' has length : ${result}`);
