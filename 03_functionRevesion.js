@@ -15,3 +15,12 @@ var sum = addFun(20,30);
 console.log(`Addition of 20 and 30 is ${sum}`);
 
 //Above code is function with arguments & Return value
+
+
+
+function greaterNumber(num1, num2) {
+ var result=  num1>num2 ? num1 : num2;
+console.log(`Greater number amongst ${num1},  ${num2} is: ${result}`);
+}
+greaterNumber (10, -10);
+greaterNumber (800, 899);
