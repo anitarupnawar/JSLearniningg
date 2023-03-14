@@ -1,0 +1,17 @@
+
+function funName (arg1, arg2, arg3) {
+var add = arg1 + arg2 + arg3;
+console.log(`Addition is: ${add}`);
+return add;
+}
+funName (10,20,30);
+
+
+function addFun (num1, num2){
+ var add =num1 +num2;
+return add;
+}
+var sum = addFun(20,30);
+console.log(`Addition of 20 and 30 is ${sum}`);
+
+//Above code is function with arguments & Return value
