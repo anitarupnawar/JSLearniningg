@@ -57,3 +57,15 @@ var result = wordLength ("developer");
 console.log(`word 'developer' has length : ${result}`);
 var result = wordLength ("Google");
 console.log(`word 'Google' has length : ${result}`);
+
+
+//AssignmentB-01
+
+function tcsInterviewCheck(gradScore, hscScore, sscScore, candidateName){
+     
+   var result = (gradScore>=70 || hscScore>=80 || sscScore>90)  //True || True || false 
+   ? `Congrats's ${candidateName} you are eligible for TCS interview`
+    : `Unfortunately you are not eligible for interview`;
+ console.log(result);
+}
+tcsInterviewCheck(80, 86, 90, "Billgates");
