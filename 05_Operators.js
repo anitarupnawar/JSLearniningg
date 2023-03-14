@@ -81,3 +81,13 @@ console.log(marks >= 35);   // > Greater than equal
 var marks =35;
 console.log(marks <= 35);   // < less than equal
 
+// Ternary Oprators
+
+var marks =70;
+ var result =marks >=60 ? "Allow him for interview" : "Don't Allow";
+console.log(result);
+
+ var age =22;
+ var result =age >=21 ?" Congrtualtions..": "Ha haa no next time...";
+ console.log(result);
+
