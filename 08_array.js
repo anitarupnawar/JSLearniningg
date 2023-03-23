@@ -81,3 +81,15 @@ console.log("=== splice()to insert one elements without replacing existing eleme
  arrayOfNumbers = [10, 20, 25, 15, 40, 45];
 arrayOfNumbers.splice (4, 0, 5, 35, 55 );
 console.log(arrayOfNumbers);
+
+
+//Traversing Array
+
+console.log("=== Traversing ===");
+arrayOfNumbers = [10, 20, 25, 15, 40, 45, 60, 40, 30, 22, 26];
+let sum = 0;
+for (let index = 0; index < arrayOfNumbers.length; index++) {
+    const element = arrayOfNumbers[index];
+    sum = sum + element;
+}
+console.log(`Sum of an Array element is: ${sum}`);
