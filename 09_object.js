@@ -13,8 +13,16 @@ let student = {
     isWorking: "true",
     age : 22,
     collageName: "ABC",
-    id : "12345"
+    id : "12345",
+  address: {
+     street: "Wakad",
+    city:"Pune",
+    PIN: "413109"
+
+}
+
 };
+console.log(student.address.city);
 console.log(student);
 console.log(typeof student);
 //. Dot notation
@@ -43,5 +51,3 @@ console.table(student);
 
 //Creating Empty object
 
-let teacher ={ "Mohit"};
-console.log(student);
