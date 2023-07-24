@@ -2,13 +2,14 @@ console.log ("Anita Rupnawar");
 console.log(31);
 console.log("Pune");
 
-var fullName = "Anita Rupnawar";
-console.log(fullName);
-console.log(fullName);
-
-var city; //Variable Declaration
+var fullname = "Anita Rupnawar";
+console.log(fullname);
+console.log(age);
 console.log(city);
-city="Pune"; // Variable intilization
+
+var city; //variable Declaration 
+console.log(city);
+city="Pune"; //Variable intilization
 console.log(city);
 city="Surat"; //Variable update
 console.log(city);
